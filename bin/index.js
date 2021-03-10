@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 // commands-> 
 // view --tree, --flat 
 // organize-> same folder , multiple folder 
@@ -8,9 +10,9 @@
 
 
 //Importing function from Command File
-let {helpFn} = require("./commands/help");
-let {organizeFn} = require("./commands/organize");
-let {viewFn} = require("./commands/view");
+let {helpFn} = require("/home/nickjosi/PepCodingWebDevelopment/1.file_system_07_02_2021/lib/help.js");
+let {organizeFn} = require("/home/nickjosi/PepCodingWebDevelopment/1.file_system_07_02_2021/lib/organize.js");
+let {viewFn} = require("/home/nickjosi/PepCodingWebDevelopment/1.file_system_07_02_2021/lib/view.js");
 
 let input = process.argv.slice(2);
 let cmd = input[0];

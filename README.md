@@ -19,3 +19,12 @@ It has following commands :
 * To make this script global.
 * Currently If there are different file of same name in different subdirectory of a directory , It cannot duplicate them.
 * Some system level file can't accesed and copy.
+
+###### Latest Development :
+* Made this script global
+
+##### Download Instruction (Globally run CLI now!) :
+* Make a new folder *abc*
+* Download *bin* and *lib* inside *abc*
+* Go to cmd/bash and run 
+    npm install -g *path of abc*

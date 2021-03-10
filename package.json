@@ -1,0 +1,23 @@
+{
+  "name": "mycli",
+  "version": "1.0.0",
+  "description": "mycli is an command line utility , made using JavaScript and NodeJs . It has following commands : * **View** :      It has following two modes     * node mycli.js view Tree *dirPath* --> To show structure of directory in Tree mode      * node mycli.js view Flat *dirPath* --> To show structure of directory in Flat mode",
+  "main": "./bin/index.js",
+  "bin": {
+    "mycli": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/njoshi727/mycli.git"
+  },
+  "keywords": [],
+  "author": "Nikhil Joshi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/njoshi727/mycli/issues"
+  },
+  "homepage": "https://github.com/njoshi727/mycli#readme"
+}
